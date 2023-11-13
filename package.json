@@ -1,0 +1,23 @@
+{
+  "name": "leboncoin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "cypress open",
+    "ci": "cypress run --headless --browser chrome"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@cucumber/cucumber": "^10.0.1",
+    "cypress-cucumber-preprocessor": "^4.3.1"
+  },
+  "dependencies": {
+    "cosmiconfig": "^8.3.6",
+    "cypress": "^13.5.0"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
+  }
+}
